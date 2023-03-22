@@ -19,6 +19,7 @@
         "strict": true,
 
         //JS 허용 여부
-        "allowJs": true
+        "allowJs": true,
+        "module": "CommonJS"
     }
 }
