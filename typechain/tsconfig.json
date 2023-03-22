@@ -4,6 +4,7 @@
         //JS File이 생성될 디렉터리 지정
         //build 폴더에 만들어질 코드를 넣을 것이라 지정
         "outDir": "build",
+        "esModuleInterop": true,
 
         //어떤 버전의 JS로 TS를 컴파일할지 정함
         "target": "ES6",
@@ -15,6 +16,9 @@
 
         //strict모드 설정
         //개발자를 실수로부터 보호
-        "strict": true
+        "strict": true,
+
+        //JS 허용 여부
+        "allowJs": true
     }
 }
